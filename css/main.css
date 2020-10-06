@@ -5,6 +5,7 @@ html,body,li,a {
     list-style: none;
     color: black;
     font-family: 'Noto Sans KR', sans-serif;
+
 }
 .hide{
     position: absolute;
@@ -112,6 +113,8 @@ html,body,li,a {
 .line_up{
     margin-top: 90px;
     margin: auto 0;
+    height: 600px;
+
 }
 .line_up .kind,.line_up .example{
     margin-left: 300px;
@@ -139,9 +142,11 @@ html,body,li,a {
 .example
 {
     display: flex;
+    align-items: center;
 }
 .example .explain{
     margin-left: 150px;
+    margin-bottom: 90px;
 }
 .example .explain .title{
     color: #101a3d;
@@ -156,4 +161,86 @@ html,body,li,a {
     font-size: 15px;
     line-height: 30px;
     list-style-type: square;
+}
+.guide{
+    background: #19254d;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.guide img{
+    border-radius: 17px;
+}
+.method
+{
+    color: white;
+    margin-left: 200px;
+}
+.method h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+.method strong{
+    font-size: 22px;
+}
+.mehtod p
+{
+    font-size: 14px;
+}
+.info{
+    color: #4b5064;
+
+}
+.info h2{
+    margin-left: 360px;
+    font-size: 50px;
+    color: #262a38;
+    font-weight: 300;
+}
+.info .time{
+    display: flex;
+    align-items:center; 
+    margin-left: 360px;
+    padding-top: 25px;
+
+}
+.time h2{
+    margin-left: 30px;
+    font-size: 23px;
+    font-weight: 300;
+}
+.time p{
+    font-size: 15px;
+    margin-left: 30px;
+}
+footer{
+    background: #f5f6f7;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+footer p
+{   
+    color: #4B5064;
+    font-size: 13px;
+}
+footer .first
+{
+    margin-right: 20px;
+}
+footer .second
+{
+    margin-right: 30px;
+}
+footer .sns{
+    display: flex;
+    padding-right: 30px;
+}
+footer .sns img{
+    padding-right:7px;
+    padding-top: 12px;
 }
