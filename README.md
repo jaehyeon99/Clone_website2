@@ -18,6 +18,7 @@ clone_website : 타다 (https://tadatada.com/)
 
 ### 6.부족한 점
 컴퓨터로 봤을 때는 css가 깨지지 않지만, 모바일이나 다른 기기로 봤을 때는 css가 깨지는 현상 발생
+<20.10.23 javascript 와 mediaquery 를 이용하여 반응형 웹사이트로 해결>
 
 ### * Complete website url *
 https://jaehyeon99.github.io/Clone_website2/
