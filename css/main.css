@@ -244,3 +244,126 @@ footer .sns img{
     padding-right:7px;
     padding-top: 12px;
 }
+i
+{
+    font-size: 20px;
+   
+}
+.nav i{
+    font-size: 25px;
+}
+.nav .hambuger
+{
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+
+}
+.nav .menu .close{
+    display: none;
+}
+.hr{
+    display: none;
+}
+.guide .mobile
+{
+   display: none;
+}
+
+
+@media screen and (max-width:1210px) {
+    html{
+        width: 1209PX;
+        margin: 0;
+    }
+    .nav .logo
+    {
+        margin-left: 200px;
+    }
+    .nav{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 40px;
+    }
+    .nav .menu{
+        display: none;
+    }
+    .nav .menu ul
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 370%;
+    }
+    .nav .menu ul li
+    {
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .nav .hambuger{
+        display: block;
+    }
+    .phrases
+    {
+        height: 400px;
+    }
+    .phrases
+    {
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+    .phrases .right,.phrases .left{
+        margin: 0;
+    }
+    .phrases .hr{
+        display: block;
+    }
+    .postive{
+        flex-direction: column;
+        align-items: center;
+    }
+    .postive .pos{
+        padding-bottom: 30px;
+    }
+    .line_up{
+        height: 900px;
+    }
+    .line_up .example
+    {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .line_up .all .explain{
+        margin: 0 auto;
+    }
+    .guide{
+        flex-direction: column;
+        height: 800px;
+    }
+    .guide .mobile{
+        display: block;
+        font-size: 30px;
+        
+        color: white;
+    }
+    .guide .phone{
+        padding-bottom: 20px;
+    }
+    .guide .mehtod strong{
+        padding-top: 20px;
+    }
+    .guide .method{
+        margin: 0;
+        text-align: center;
+    }
+    .guide .method h2{
+        display: none;
+    }
+}
