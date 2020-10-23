@@ -275,7 +275,7 @@ i
 @media screen and (max-width:1210px) {
     html{
         width: 1209PX;
-        margin: 0;
+        margin: 0px;
     }
     .nav .logo
     {
