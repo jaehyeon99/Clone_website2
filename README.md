@@ -1,4 +1,4 @@
-# HTML 과 CSS 만을 이용한 UI 따라만들기 두번째
+# HTML 과 CSS 만을 이용한 UI 따라만들기 
 clone_website : 타다 (https://tadatada.com/)
 
 ### 1.Navbar & main Part
